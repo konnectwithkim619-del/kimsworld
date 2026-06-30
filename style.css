@@ -133,3 +133,48 @@ main h2 {
     text-align: center;
   }
 }
+.track-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.track-card {
+  text-align: center;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.track-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.track-card h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+.track-card p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 900px) {
+  .track-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .track-grid {
+    grid-template-columns: 1fr;
+  }
+}
