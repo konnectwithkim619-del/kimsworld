@@ -172,6 +172,13 @@ main h2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.song-title {
+  font-weight: 700;
+}
+
+.artist-name {
+  font-weight: 400;
+}
 
 @media (max-width: 500px) {
   .track-grid {
