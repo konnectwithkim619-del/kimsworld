@@ -174,10 +174,9 @@ main h2 {
 }
 .song-title {
   font-weight: 700;
-}
-
-.artist-name {
-  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
 }
 
 @media (max-width: 500px) {
