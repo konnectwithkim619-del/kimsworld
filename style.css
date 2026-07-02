@@ -184,3 +184,22 @@ main h2 {
     grid-template-columns: 1fr;
   }
 }
+.social-button{
+    display:inline-block;
+    background:#000;
+    color:white;
+    padding:14px 28px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.social-button:hover{
+    background:#444;
+}
+
+.social-button i{
+    margin-right:10px;
+    font-size:20px;
+}
