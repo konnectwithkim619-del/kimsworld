@@ -114,7 +114,8 @@ main h2 {
 
 /* MOBILE */
 @media (max-width: 768px) {
-
+}
+  
   .hero h2 {
     font-size: 34px;
   }
@@ -132,7 +133,7 @@ main h2 {
     width: 90%;
     text-align: center;
   }
-}
+
 .track-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -203,6 +204,7 @@ main h2 {
     margin-right:10px;
     font-size:20px;
 }
+
 .social-links i{
     font-size:24px;
     margin-right:8px;
